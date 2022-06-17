@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+}
+
+body {
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+
+    position: fixed;
+    z-index: 2;
+    
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav {
+    margin-right: 10px;
+}
+
+nav a {
+    padding-left: 10px;
+    color: gray;
+}
+
+/* main */
+
+main {
+    width: 1200px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+
+/* mission */
+#mission {
+    height: 700px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#mission .title {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    padding: 10px;
+    position: absolute;
+}
+
+
+/* featured-tea */
+#featured-tea {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+#featured-tea .head-container {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#featured-tea .container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#featured-tea .container img {
+    width: 300px;
+    height: 200px;
+}
+
+#featured-tea .container h4 {
+    margin: 10px auto;
+}
+
+/* location */
+#location {
+    height: 500px;
+    position: relative;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#location .info {
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 120px;
+}
+
+#location .container {
+    display: inline-flex;
+    justify-content: center;
+}
+
+#location .locatebox {
+    width: 300px;
+    box-sizing: border-box;
+    margin: 15px;
+    padging: 5px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.locatebox h3, .locatebox p {
+    margin: 15px 10px;
+}
+
+
+/*  contact */
+#contact {
+    height: 200px;
+    opacity: 1;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+/* footer */
+footer {
+    height: 70;
+    margin: 20px;
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
